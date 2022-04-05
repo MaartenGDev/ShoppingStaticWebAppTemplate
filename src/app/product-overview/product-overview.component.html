@@ -1,7 +1,8 @@
 <h1>Product overview</h1>
 
 <div>
-    <div *ngFor="let product of products">
+    <div class="product" *ngFor="let product of products">
         <h3>{{ product.name }}</h3>
+        <p>&euro;{{ product.price }}</p>
     </div>
 </div>
