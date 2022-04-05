@@ -3,6 +3,6 @@
 <div>
     <div class="product" *ngFor="let product of products">
         <h3>{{ product.name }}</h3>
-        <p>&euro;{{ product.price }}</p>
+        <p>${{ product.price }}</p>
     </div>
 </div>
